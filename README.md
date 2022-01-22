@@ -1,17 +1,37 @@
 # Movie Gross Revenue Correlation - Python
-In this project, I extracted [Movie Industry](https://www.kaggle.com/danielgrijalvas/movies "Kaggle") data and used Python to find correlations between variables. First, I assumed that the budget of a film would be highly correlated to its gross revenue. The more money a company spends, the greater the likelihood of that film becoming successful and generating a positive return from sales. 
+In this project, I extracted [Movie Industry](https://www.kaggle.com/danielgrijalvas/movies "Kaggle") data and used Python to find correlations between variables.
 
-Although these two variables shared the highest correlation compared to other pairs of variables, Votes and Gross Revenue were also highly correlated with one another. This is likely due to critics such as IMBD and Rotten Tomatoes vote on ratings to give film and how those ratings depending on good or bad can leave a beneficial or detrimental effect on gross revenue. 
+## Content:
+There are 6820 movies in the dataset (220 movies per year, 1986-2016). Each movie has the following attributes:
 
-Overall, I enjoyed the insights obtained in this project and I hope you enjoy viewing the process of how I came to these conclusions below.
+* budget: the budget of a movie. Some movies don't have this, so it appears as 0
+* company: the production company
+* country: country of origin
+* director: the director
+* genre: main genre of the movie.
+* gross: revenue of the movie
+* name: name of the movie
+* rating: rating of the movie (R, PG, etc.)
+* released: release date (YYYY-MM-DD)
+* runtime: duration of the movie
+* score: IMDb user rating
+* votes: number of user votes
+* star: main actor/actress
+* writer: writer of the movie
+* year: year of release
 
+First, I assumed that the Budget of a film would be highly correlated to its Gross Revenue. The greater the budget, the more resources a company has access to for making a quality film that will likely generate a vast amount of gross revenue.  
+
+Although these two variables shared the highest correlation compared to other pairs of variables, Votes and Gross were also highly correlated with one another. Since votes in the data relate to how consumers rate the film, I can see this being either benefical or detriamntal to the popularity and gross revenue earned. 
+
+### View the overall process of how these insights were obtained below
 ## Skills Demonstrated: 
 * Import Packages Used for Data Manipulation, Analysis, and Visualizations 
 * Find and Remove NULL Values 
 * Convert Datatypes 
-* 
+* Split Strings
+* Scatter and Regression Plots 
+* Correlation Matrices
 ## Objective:
-* Import 
-* Visualize Data 
-* Find Correlations 
-Convert rleased datatype to a string so that we can pull data from it 
+* Extract, Clean, and Sort Data 
+* Visualize and Analyze Correlations in the Data
