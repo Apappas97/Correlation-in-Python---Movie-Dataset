@@ -35,3 +35,27 @@ Although these two variables shared the highest correlation compared to other pa
 ## Objective:
 * Extract, Clean, and Sort Data 
 * Visualize and Analyze Correlations in the Data
+
+``` Python
+#Import Libraries 
+import pandas as pd
+import numpy as np
+import seaborn as sns
+
+import matplotlib.pyplot as plt
+import matplotlib.mlab as mlab
+import matplotlib
+plt.style.use('ggplot')
+from matplotlib.pyplot import figure
+
+%matplotlib inline
+matplotlib.rcParams['figure.figsize'] = (12,8) # Adjusts the configuration of the plots created 
+
+pd.options.mode.chained_assignment = None
+
+# Read in the data
+df = pd.read_csv(r'C:\Portfolio Projects\Correlation in Python\Project Dataset\Movie_Dataset.csv')
+```
+```
+df
+```
