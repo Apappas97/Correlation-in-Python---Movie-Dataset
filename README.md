@@ -1,4 +1,4 @@
-# Movie Gross Revenue Correlation - Python
+# Data Correlation in Python | Movie Industry Dataset
 In this project, I extracted [Movie Industry](https://www.kaggle.com/danielgrijalvas/movies "Kaggle") data and used Python to find correlations between variables.
 ## Content:
 There are 6820 movies in the dataset (220 movies per year, 1986-2016). Each movie has the following attributes:
