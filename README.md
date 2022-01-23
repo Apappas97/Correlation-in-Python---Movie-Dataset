@@ -1,6 +1,5 @@
 # Movie Gross Revenue Correlation - Python
 In this project, I extracted [Movie Industry](https://www.kaggle.com/danielgrijalvas/movies "Kaggle") data and used Python to find correlations between variables.
-
 ## Content:
 There are 6820 movies in the dataset (220 movies per year, 1986-2016). Each movie has the following attributes:
 
@@ -23,8 +22,10 @@ There are 6820 movies in the dataset (220 movies per year, 1986-2016). Each movi
 First, I assumed that the Budget of a film would be highly correlated to its Gross Revenue. The greater the budget, the more resources a company has access to for making a quality film that will likely generate a vast amount of gross revenue.  
 
 Although these two variables shared the highest correlation compared to other pairs of variables, Votes and Gross were also highly correlated with one another. Since votes in the data relate to how consumers rate the film, I can see this being either benefical or detriamntal to the popularity and gross revenue earned. 
-
-### View the overall process of how these insights were obtained below
+## Objective:
+* Extract, Clean, and Sort Data 
+* Visualize and Analyze Correlations in the Dataframe
+### [View my project](https://github.com/Apappas97/Correlation-in-Python---Movie-Dataset/blob/main/Movie%20Correlation%20Project.ipynb) in python to see a step-by-step process for how I completed these objectives 
 ## Skills Demonstrated: 
 * Import Packages Used for Data Manipulation, Analysis, and Visualizations 
 * Find and Remove NULL Values 
@@ -32,30 +33,3 @@ Although these two variables shared the highest correlation compared to other pa
 * Split Strings
 * Scatter and Regression Plots 
 * Correlation Matrices
-## Objective:
-* Extract, Clean, and Sort Data 
-* Visualize and Analyze Correlations in the Data
-
-``` Python
-#Import Libraries 
-import pandas as pd
-import numpy as np
-import seaborn as sns
-
-import matplotlib.pyplot as plt
-import matplotlib.mlab as mlab
-import matplotlib
-plt.style.use('ggplot')
-from matplotlib.pyplot import figure
-
-%matplotlib inline
-matplotlib.rcParams['figure.figsize'] = (12,8) # Adjusts the configuration of the plots created 
-
-pd.options.mode.chained_assignment = None
-
-# Read in the data
-df = pd.read_csv(r'C:\Portfolio Projects\Correlation in Python\Project Dataset\Movie_Dataset.csv')
-```
-```
-df
-```
