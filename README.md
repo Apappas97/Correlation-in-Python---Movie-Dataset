@@ -27,7 +27,7 @@ Although these two variables shared the highest correlation compared to other pa
 * Visualize and Analyze Correlations in the Dataframe
 ### [View my project](https://github.com/Apappas97/Correlation-in-Python---Movie-Dataset/blob/main/Movie%20Correlation%20Project.ipynb) in python to see a step-by-step process for how I completed these objectives 
 ## Skills Demonstrated: 
-* Import Packages Used for Data Manipulation, Analysis, and Visualizations 
+* Import Packages used for Data Manipulation, Analysis, and Visualization
 * Find and Remove NULL Values 
 * Convert Datatypes 
 * Split Strings
